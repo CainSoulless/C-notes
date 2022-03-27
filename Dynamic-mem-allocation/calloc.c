@@ -1,8 +1,16 @@
 /* calloc (contiguous allocation). */
     //
     // The differences between malloc are:
-    //     -   It initializes each block with a default value 0.
+    //     -   It initializes each block with a default value 0, and malloc initializes
+    //         with garbage value.
     //     -   It has two parameters or arguments as compare to malloc.
+    //     -   Calloc is slower than malloc.
+    //
+    //  But the grand difference is, calloc can allocate a multiple block
+    //  of memory of the same datatype (size).
+    //  And malloc just a single block of memory.
+    //
+    //  More details: https://www.youtube.com/watch?v=4ZhRiWM8eUk
     //                                 _________ 4 bytes
     //                             ____|______
     // int *ptr = (int*)calloc(5, sizeof(int));
