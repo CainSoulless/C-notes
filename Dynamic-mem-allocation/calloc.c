@@ -1,6 +1,6 @@
 /* calloc (contiguous allocation). */
     //
-    // The differences between malloc are:
+    // The differences between malloc and calloc are:
     //     -   It initializes each block with a default value 0, and malloc initializes
     //         with garbage value.
     //     -   It has two parameters or arguments as compare to malloc.
