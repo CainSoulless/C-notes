@@ -26,6 +26,7 @@ typedef struct node
 node;
 
 1) Is defined as a recursive struct.
+See more: https://www.youtube.com/watch?v=VOpjAHCee7c
 */
 
 
