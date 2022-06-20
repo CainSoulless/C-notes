@@ -40,7 +40,11 @@ int main(void)
 
     //  Time passes
     
-    //  Resize old array to be of size 5;
+    /* Resize old array to be of size 5 using realloc.
+     * Read more:
+     *          https://github.com/CainSoulless/C-notes/blob/main/Dynamic-mem-allocation/realloc.c
+     * */
+    
     int *tmp2 = (int *)realloc(tmp, 5 * sizeof(int));
     if (tmp2
             == NULL)
