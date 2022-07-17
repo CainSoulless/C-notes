@@ -1,6 +1,7 @@
 #C-notes
 
-All my notes taked in C and binary exploitation learning path will be added in this repository.
+All my notes taked about C and binary exploitation. Learning path will be added later in this repository.
+
 
 Sources:
 CS50
